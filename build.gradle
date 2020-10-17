@@ -13,10 +13,10 @@ version "2.0.2"
 group "org.grails.plugins"
 
 apply plugin: "idea"
-apply plugin:"org.grails.grails-plugin"
-apply plugin:"org.grails.grails-plugin-publish"
-apply plugin:"org.grails.grails-gsp"
-apply plugin:"asset-pipeline"
+apply plugin: "org.grails.grails-plugin"
+apply plugin: "org.grails.grails-plugin-publish"
+apply plugin: "org.grails.grails-gsp"
+apply plugin: "asset-pipeline"
 
 ext {
     grailsVersion = project.grailsVersion
@@ -56,7 +56,7 @@ assets {
     packagePlugin = true
 }
 
-task wrapper(type: Wrapper) {
+wrapper {
     gradleVersion = gradleWrapperVersion
 }
 
@@ -71,18 +71,18 @@ grailsPublish {
     title = "Grails Asynchronous Mail plugin"
     desc = "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job."
     developers = [
-            kefirfromperm:"Vitalii Samolovskikh",
-            stokito:"Sergey Ponomarev",
-            ilopmar:"Iván López",
-            burtbeckwith:"Burt Beckwith",
-            puneetbehl:"Puneet Behl",
-            aberbenni:"Alessandro Berbenni",
-            dpcasady:"Danny Casady",
-            SAgrawal14:"Shashank Agrawal",
-            visheshd:"Vishesh",
-            "micke-a":"Mikael Andersson",
-            pgdoval:"Pablo González Doval",
-            Uniqen:"Magnus Dalin",
-            demon101:"Demon"
+            kefirfromperm: "Vitalii Samolovskikh",
+            stokito      : "Sergey Ponomarev",
+            ilopmar      : "Iván López",
+            burtbeckwith : "Burt Beckwith",
+            puneetbehl   : "Puneet Behl",
+            aberbenni    : "Alessandro Berbenni",
+            dpcasady     : "Danny Casady",
+            SAgrawal14   : "Shashank Agrawal",
+            visheshd     : "Vishesh",
+            "micke-a"    : "Mikael Andersson",
+            pgdoval      : "Pablo González Doval",
+            Uniqen       : "Magnus Dalin",
+            demon101     : "Demon"
     ]
 }
