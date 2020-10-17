@@ -27,7 +27,7 @@ class AsynchronousMailProcessService {
         List<Long> messagesIds = asynchronousMailPersistenceService.selectMessagesIdsForSend()
 
         if (messagesIds) {
-            log.debug("Found ${messagesIds} messages to send.")
+            log.debug("Found ${messagesIds.size()} messages to send.")
 
             // Create the queue of ids for processing
             int messageCount = messagesIds.size()
