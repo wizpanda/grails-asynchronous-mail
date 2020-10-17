@@ -1,7 +1,7 @@
-The Grails Asynchronous Mail plugin
+The Asynchronous Mail plugin for Grails 4
 ====================================
 
-[![Build Status](https://travis-ci.org/kefirfromperm/grails-asynchronous-mail.svg?branch=master)](https://travis-ci.org/kefirfromperm/grails-asynchronous-mail) [![Download](https://api.bintray.com/packages/kefirsf/plugins/asynchronous-mail/images/download.svg) ](https://bintray.com/kefirsf/plugins/asynchronous-mail/_latestVersion) [![OpenHUB](https://openhub.net/p/grails-asynchronous-mail/widgets/project_thin_badge?format=gif)](https://openhub.net/p/grails-asynchronous-mail)
+[![Download](https://api.bintray.com/packages/wizpanda/grails-plugins/asynchronous-mail/images/download.svg) ](https://bintray.com/wizpanda/grails-plugins/asynchronous-mail/_latestVersion)
 
 Description
 -----------
@@ -17,24 +17,18 @@ Links
 -----
 
 * The plugin page: <https://grails.org/plugins.html#plugin/asynchronous-mail>
-* The VCS repository (GitHub): <https://github.com/kefirfromperm/grails-asynchronous-mail>
-* The issue tracker (GitHub): <https://github.com/kefirfromperm/grails-asynchronous-mail/issues>
+* The VCS repository (GitHub): <https://github.com/wizpanda/grails-asynchronous-mail>
+* The issue tracker (GitHub): <https://github.com/wizpanda/grails-asynchronous-mail/issues>
 * The repository package (BinTray): <https://bintray.com/kefirsf/plugins/asynchronous-mail/>
 * The page at OpenHUB: <https://www.openhub.net/p/grails-asynchronous-mail>
 
 Installation
 ------------
 
-To install just add the plugin to the plugins block of `build.gradle`. For Grails 3.3.x
+To install just add the plugin to the plugins block of `build.gradle`. For Grails 4.x & higher
 
 ```groovy
-compile "org.grails.plugins:asynchronous-mail:2.0.2"
-```
-
-For Grails 3.2.11 and earlier
-
-```groovy
-compile "org.grails.plugins:asynchronous-mail:2.0.2-3.2.x"
+compile "com.wizpanda.plugins:asynchronous-mail:3.0.0"
 ```
 
 Configuration
@@ -155,8 +149,7 @@ I recommend to create an index on the `async_mail_mess.status` column. It's resu
 Issue tracking
 --------------
 
-You can report bugs on [GitHub](https://github.com/kefirfromperm/grails-asynchronous-mail/issues?state=open).
-You also can ask me questions by email [kefirfromperm@gmail.com](mailto:kefirfromperm@gmail.com).
+You can report bugs on [GitHub](https://github.com/wizpanda/grails-asynchronous-mail/issues?state=open).
 Please enable logs and attach them to your issue.
 
 Please review this project at [OpenHUB](https://www.openhub.net/p/grails-asynchronous-mail).
@@ -165,7 +158,7 @@ Contribution
 ------------
 
 If you want to contribute to the plugin just open a pull request to the repository
-<https://github.com/kefirfromperm/grails-asynchronous-mail>.
+<https://github.com/wizpanda/grails-asynchronous-mail>.
 
 Unit tests are very very sweet things. They help us to find bugs and to modify code without adding new bugs. It's very
 interesting to see how they work. I like to see how they work. What is better than unit tests? More unit tests!
@@ -174,7 +167,3 @@ Unit tests are good!
 And comments... Comments are good also. They are not as good as unit tests but they are definitely good. If you known
 Chinese or Arabic it's good. Seriously. It's awesome! But I don't speak them. So write comments in English.
 
-Donation
---------
-
-If you want to give me a beer just send some money to <https://www.paypal.me/kefir>
