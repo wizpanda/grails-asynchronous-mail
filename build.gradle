@@ -12,7 +12,7 @@ buildscript {
 version "2.0.2"
 group "org.grails.plugins"
 
-apply plugin: 'idea'
+apply plugin: "idea"
 apply plugin:"org.grails.grails-plugin"
 apply plugin:"org.grails.grails-plugin-publish"
 apply plugin:"org.grails.grails-gsp"
@@ -48,7 +48,7 @@ dependencies {
     testCompile "org.grails.plugins:hibernate5"
     testCompile "com.h2database:h2:1.4.196"
 
-    compile "org.grails.plugins:mail:2.0.0"
+    compile "org.grails.plugins:mail:3.0.0"
     compile "org.grails.plugins:quartz:2.0.13"
 }
 
@@ -61,13 +61,13 @@ task wrapper(type: Wrapper) {
 }
 
 grailsPublish {
-    userOrg = 'kefirsf'
+    userOrg = "kefirsf"
     license {
-        name = 'Apache-2.0'
+        name = "Apache-2.0"
     }
-    websiteUrl = 'https://grails.org/plugins.html#plugin/asynchronous-mail'
-    issueTrackerUrl = 'https://github.com/kefirfromperm/grails-asynchronous-mail/issues'
-    vcsUrl = 'https://github.com/kefirfromperm/grails-asynchronous-mail.git'
+    websiteUrl = "https://grails.org/plugins.html#plugin/asynchronous-mail"
+    issueTrackerUrl = "https://github.com/kefirfromperm/grails-asynchronous-mail/issues"
+    vcsUrl = "https://github.com/kefirfromperm/grails-asynchronous-mail.git"
     title = "Grails Asynchronous Mail plugin"
     desc = "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job."
     developers = [
@@ -80,7 +80,7 @@ grailsPublish {
             dpcasady:"Danny Casady",
             SAgrawal14:"Shashank Agrawal",
             visheshd:"Vishesh",
-            'micke-a':"Mikael Andersson",
+            "micke-a":"Mikael Andersson",
             pgdoval:"Pablo González Doval",
             Uniqen:"Magnus Dalin",
             demon101:"Demon"
