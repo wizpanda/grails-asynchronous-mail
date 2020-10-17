@@ -60,7 +60,7 @@ wrapper {
     gradleVersion = gradleWrapperVersion
 }
 
-grailsPublish {
+/*grailsPublish {
     userOrg = "kefirsf"
     license {
         name = "Apache-2.0"
@@ -78,11 +78,23 @@ grailsPublish {
             puneetbehl   : "Puneet Behl",
             aberbenni    : "Alessandro Berbenni",
             dpcasady     : "Danny Casady",
-            SAgrawal14   : "Shashank Agrawal",
+            SAgrawal31   : "Shashank Agrawal",
             visheshd     : "Vishesh",
             "micke-a"    : "Mikael Andersson",
             pgdoval      : "Pablo González Doval",
             Uniqen       : "Magnus Dalin",
             demon101     : "Demon"
     ]
+}*/
+
+grailsPublish {
+    githubSlug = "wizpanda/asynchronous-mail"
+    userOrg = "wizpanda"
+    repo = "grails-plugins"
+    license {
+        name = "Apache-2.0"
+    }
+    title = "Grails Asynchronous Mail plugin"
+    desc = "The plugin realises asynchronous mail sending. It stores messages in a DB and sends them asynchronously by a quartz job."
+    developers = [sagrawal31: "Shashank Agrawal"]
 }
